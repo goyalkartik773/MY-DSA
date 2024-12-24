@@ -6,7 +6,7 @@ int main()
     int n = sizeof(arr) / sizeof(arr[0]);
     int brr[] = {2, 3, 6, 7, 10, 12};
     int m = sizeof(brr) / sizeof(brr[0]);
-    int crr[n + m];
+    int crr[10];
     int i = 0, j = 0, k = 0;
     while (i < n && j < m)
     {
